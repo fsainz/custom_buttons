@@ -1,0 +1,518 @@
+// FUNCTIONS & VARIABLES ******************************************************//
+
+$buttons-style-list:".buttonA", ".buttonB", ".buttonD";
+
+// ".a", ".b" => ".a, .b"
+@function buttons-style-list-to-string(){
+    $string:"";
+    @for $i from 1 through length($buttons-style-list) {
+        @if $i == 1{
+            $string: nth($buttons-style-list,$i);
+            }@else{
+            $string:$string+", "+nth($buttons-style-list,$i)
+        }
+    }
+    @return $string;
+}
+
+
+
+$experimental-support-for-svg: true;
+
+// MIXINS ********************************************************************//
+
+// Use PX as units or modify the code to transform EM into PX.
+@mixin buttonizer(
+$padding: "auto",
+$border-color:#d4d4d4,
+$text-shadow: 1px 1px 0 #fff,
+$font-size:11px,
+$color:#333,
+$bg-normal: #ececec linear-gradient(#f4f4f4, #ececec),
+$border-radius: 0.2em,
+$text-shadow-hover-active-selected:-1px -1px 0 rgba(0,0,0,0.3),
+$color-hover-active-selected: #FFF,
+$border-color-hover:#3072b3,
+$border-bottom-color-hover:#2a65a0,
+$bg-hover: #3C8DDE linear-gradient(#599bdc, #3072b3),
+$border-color-active-selected:#2a65a0,
+$border-bottom-color-active-selected:#3884CF,
+$bg-active-selected:#3072b3 linear-gradient(#3072b3, #599bdc),
+$box-shadow-active:false,
+$box-shadow-selected:false,
+$iOSicon:false
+){
+
+
+    // default padding in px depending on font-size
+    // font-size        padding
+    // 11px             6px   11px
+    // 12px             6px   12px
+    $px_em_ratio : $font-size / 1em;
+    @if $padding == "auto"{
+        $padding: round(0.5em* $px_em_ratio) round(1em * $px_em_ratio);
+    }
+    padding: $padding;
+
+    // total height for defaults: 11px(line-height)+12px(padding)+2px(border)=25px
+    $container-total-height: $font-size+ nth($padding, 1)*2 + 2px; // useful for debugging
+    $container-height: $font-size;
+    min-height: $container-height; // needed for elements with icon and no text
+
+    position: relative;
+    overflow: visible;
+    @include inline-block;
+
+    margin:0;
+    border: 1px solid $border-color;
+    text-decoration:none;
+    text-shadown: $text-shadow;
+    font: $font-size sans-serif;
+    line-height:1;
+    @include link-colors($color, $color, $color, $color, $color);
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    @include background($bg-normal);
+    /*@include filter-gradient(#f4f4f4, #ececec);*/
+    
+    @include background-clip; // padding-box
+    @include border-radius($border-radius);
+
+    &:hover, &:focus, &:active, &.selected{
+        text-decoration: none;
+        text-shadow: $text-shadow-hover-active-selected;
+        color: $color-hover-active-selected;
+    }
+
+
+    &:hover, &:focus {
+        border-color: $border-color-hover;
+        border-bottom-color: $border-bottom-color-hover;
+        @include background($bg-hover);
+    }
+
+    &:active, &.selected{
+        border-color: $border-color-active-selected;
+        border-bottom-color: $border-bottom-color-active-selected;
+        @include background($bg-active-selected);
+    }
+
+    @if $box-shadow-active {
+        &:active{@include box-shadow($box-shadow-active);}
+    }
+
+    @if $box-shadow-selected {
+        &.selected{@include box-shadow($box-shadow-selected);}
+    }
+
+    &::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+    @if $iOSicon {
+        @include iOSiconizer(
+        $font-size, //$font-size
+        26px, //$icon-width
+        26px, //$icon-height
+        $padding // padding
+        );
+        }@else{
+        @include iconizer(
+        $font-size, //$font-size
+        12px, //$icon-width
+        12px, //$icon-height
+        11px, //$container-height
+        8px, //$small-icon-width
+        8px, //$small-icon-height
+        round(nth($padding, 1)*1.2) //$only-icon-sides-padding,
+        );
+    }
+}
+
+
+
+@mixin iconizer (
+$font-size:11px,
+$icon-width:12px,
+$icon-height:12px,
+$container-height:11px,
+$small-icon-width:8px,
+$small-icon-height:8px,
+$only-icon-sides-padding:2px
+){
+    // Github icons are 12x12 -- that's the default size
+    // other icons are 8x8 -- use .icon.small
+
+    &.icon:before, &.only_icon:before{
+        content: "";
+        width: $icon-width;
+        height: $icon-height;
+        position: relative;
+        top:floor(($icon-height - $container-height)/2);
+        float:left;
+        $px_em_ratio : $font-size / 1em;
+        margin: 0 round(0.75em* $px_em_ratio) 0 round(-0.25em* $px_em_ratio);
+        //for debugging: background: red none 0 0 no-repeat;
+        background: image-url("css3buttons/css3-github-buttons-icons.png")  0 0 no-repeat;
+    }
+
+    &.only_icon{
+        padding-left:$only-icon-sides-padding;
+        padding-right:$only-icon-sides-padding;
+    }
+
+    &.only_icon:before{
+        margin: 0;
+    }
+
+    &.icon.small:before, &.only_icon.small:before{
+        width: $small-icon-width;
+        height: $small-icon-height;
+        top:round(($icon-height - $container-height)/2);
+        background: red  0 0 no-repeat;
+    }
+
+    &.primary {
+        font-weight: bold;
+    }
+
+    &.danger {
+        color: #900;
+        &:hover, &:focus, &:active{
+            border-color: #b53f3a;
+            border-bottom-color: #a0302a;
+            color: #fff;
+            @include background(#dc5f59 linear-gradient(#dc5f59, #b33630));
+        }
+    }
+
+    &.danger.active, &.danger:active, {
+        border-color: #a0302a;
+        border-bottom-color: #bf4843;
+        @include background(#b33630 linear-gradient(#b33630, #dc5f59));
+    }
+
+    // GITHUB ICONS ////////////////////////////////////////////////////////////
+    &.arrowup{&:before{background-position: 0 0;}
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px 0;}}
+
+    &.arrowdown{&:before{background-position: 0 -12px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -12px; }}
+
+    &.arrowleft{&:before{background-position: 0 -24px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -24px; }}
+
+    &.arrowright{&:before{float:right; margin: 0 -0.25em 0 0.5em; background-position: 0 -36px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -36px; }}
+
+    &.approve{&:before{background-position: 0 -48px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -48px; }}
+
+    &.add{&:before{background-position: 0 -288px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -288px; }}
+
+    &.remove{&:before{background-position: 0 -60px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -60px; }}
+
+    &.log{&:before{background-position: 0 -72px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -72px; }}
+
+    &.calendar{&:before{background-position: 0 -84px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -84px; }}
+
+    &.chat{&:before{background-position: 0 -96px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -96px; }}
+
+    &.clock{&:before{background-position: 0 -108px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -108px; }}
+
+    &.settings{&:before{background-position: 0 -120px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -120px; }}
+
+    &.comment{&:before{background-position: 0 -132px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -132px; }}
+
+    &.fork{&:before{background-position: 0 -144px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -144px; }}
+
+    &.like{&:before{background-position: 0 -156px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -156px; }}
+
+    &.favorite{&:before{background-position: 0 -348px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -348px; }}
+
+    &.home{&:before{background-position: 0 -168px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -168px; }}
+
+    &.key{&:before{background-position: 0 -180px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -180px; }}
+
+    &.lock{&:before{background-position: 0 -192px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -192px; }}
+
+    &.unlock{&:before{background-position: 0 -204px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -204px; }}
+
+    &.loop{&:before{background-position: 0 -216px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -216px; }}
+
+    &.search{&:before{background-position: 0 -228px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -228px; }}
+
+    &.mail{&:before{background-position: 0 -240px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -240px; }}
+
+    &.move{&:before{background-position: 0 -252px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -252px; }}
+
+    &.edit{&:before{background-position: 0 -264px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -264px; }}
+
+    &.pin{&:before{background-position: 0 -276px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -276px; }}
+
+    &.reload{&:before{background-position: 0 -300px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -300px; }}
+
+    &.rss{&:before{background-position: 0 -312px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -312px; }}
+
+    &.tag{&:before{background-position: 0 -324px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -324px; }}
+
+    &.trash{&:before{background-position: 0 -336px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -336px; }}
+
+    &.user{&:before{background-position: 0 -360px; }
+    &:hover:before,&:focus:before,&:active:before {background-position: -12px -360px; }}
+
+    // OUR OTHER ICONS ////////////////////////////////////////////////////////////
+
+    // these are small icons // 8x8
+    &.grid.small:before{
+        background: transparent image-url("icons/icon_grid.png") 0 0 no-repeat;
+    }
+
+    &.list.small:before{
+        background: transparent image-url("icons/icon_list.png") 0 0 no-repeat;
+    }
+}
+
+
+
+// very large icons with/without bottom text
+@mixin iOSiconizer (
+$font-size:11px,
+$icon-width:26px,
+$icon-height:26px,
+$padding: 0.5em 1em,
+$desired-height-when-icon-only:"auto"
+){
+
+    $px_em_ratio : $font-size / 1em;
+    text-align:center;
+
+    &.only_icon{
+        @if $desired-height-when-icon-only == "auto" {
+            $desired-height-when-icon-only:$icon-height;
+        }
+        min-height:$desired-height-when-icon-only;
+
+        &:before{
+            $margin_to_center:floor(($desired-height-when-icon-only - $icon-height)/2);
+            margin: $margin_to_center 0 $margin_to_center 0;
+        }
+    }
+
+    &.icon:before, &.only_icon:before{
+        content: "";
+        height: $icon-height;
+        min-width: $icon-width;
+        float:none;
+        display:block;
+        background: transparent none  50% 0 no-repeat;
+    }
+
+    &.icon:before{
+        margin: 0 0 round(0.75em* $px_em_ratio) 0;
+    }
+
+
+    &.eye:before{
+        background-position: 50% 5px;
+        background-image: image-url("icons/12-eye.png");
+    }
+
+    &.flag:before{
+        background-position: 50% 0;
+        background-image: image-url("icons/59-flag.png");
+    }
+
+    &.group:before{
+        background-position: 50% 2px ;
+        background-image: image-url("icons/112-group.png");
+    }
+
+    &.palette:before{
+        background-position: 50% 3px ;
+        background-image: image-url("icons/98-palette.png");
+    }
+
+    &.shuffle:before{
+        background-position: 50% 2px ;
+        background-image: image-url("icons/05-shuffle.png");
+    }
+}
+
+
+// Use with ul elements or a simple div
+@mixin button-group{
+    @include inline-block;
+    @include h-list(0);
+    @include borders-only-for-sides;
+    > {
+        #{buttons-style-list-to-string()} {float: left;}
+    }
+}
+// Use with ul elements
+@mixin vertical-button-group{
+    @include inline-block;
+    @include borders-only-for-sides(false);
+    #{buttons-style-list-to-string()} {display:block;margin-left:0;margin-right:0;}
+}
+
+@mixin button-container{
+    /* github: For mixing buttons and button groups, e.g., in a navigation bar */
+    .button-group, #{buttons-style-list-to-string()} {vertical-align: top;}
+}
+
+
+
+// It also adds small negative margins to collapse borders together
+@mixin borders-only-for-sides($horizontal:true){
+    @for $i from 1 through length($buttons-style-list) {
+        $buttonType:nth($buttons-style-list,$i);
+
+        > #{$buttonType}, li{
+            @if $horizontal{
+                margin-left: -1px;
+                }@else{
+                margin-top: -1px;
+            }
+        }
+
+        > #{$buttonType}:not(:first-child):not(:last-child),
+        li:not(:first-child):not(:last-child) #{$buttonType}{
+            @include border-radius(0);
+        }
+
+        > #{$buttonType}:first-child,
+        li:first-child #{$buttonType} {
+            @if $horizontal{
+                @include border-right-radius(0);
+                margin-left: 0;
+                }@else{
+                @include border-bottom-radius(0);
+                margin-top: 0;
+            }
+        }
+
+        > #{$buttonType}:last-child,
+        li:last-child #{$buttonType} {
+            @if $horizontal{
+                @include border-left-radius(0);
+                }@else{
+                @include border-top-radius(0);
+            }
+        }
+    }
+}
+
+
+// DECLARATIONS ***************************************************************/
+
+
+@for $i from 1 through length($buttons-style-list) {
+    $buttonType:nth($buttons-style-list,$i);
+
+    #{$buttonType} + #{$buttonType},
+    #{$buttonType} + .button-group,
+    .button-group + #{$buttonType},
+    .button-group + .button-group {
+        margin-left: 15px;
+    }
+}
+
+
+.buttonA{
+    @include buttonizer;
+}
+
+.buttonB{
+    @include buttonizer(
+    "auto", //$padding: "auto",
+    #777, //$border-color:#d4d4d4,
+    0 0 0,//$text-shadow: 1px 1px 0 #fff,
+    11px, //$font-size:11px,
+    #333,//$color:#333,
+    #dadada linear-gradient(#f6f6f6, #dadada 70%, #ccc),//$bg-normal: #ececec linear-gradient(#f4f4f4, #ececec),
+    0.2em,//$border-radius: 0.2em,
+    0 0 0,//$text-shadow-hover-active-selected:-1px -1px 0 rgba(0,0,0,0.3),
+    #111,//$color-hover-active-selected: #FFF,
+    #555,//$border-color-hover:#3072b3,
+    #222,//$border-bottom-color-hover:#2a65a0,
+    #dadada linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1),   //$bg-hover: #3C8DDE linear-gradient(#599bdc, #3072b3),
+    #555,//$border-color-active-selected:#2a65a0,
+    #222,//$border-bottom-color-active-selected:#3884CF,
+    #dadada linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb),//$bg-active-selected:#3072b3 linear-gradient(#3072b3, #599bdc)
+    inset 0px 1px 5px #777,//$box-shadow-active:false,
+    inset 0px 1px 5px #222//$box-shadow-selected:false
+    );
+}
+
+// extended for the sake of brevity. Buttonizer uses font-size in order to calculate
+// the appropiate paddings and the icon placement, if they are needed use buttonizer
+// with the new font-size instead and add it to $buttons-style-list.
+.buttonC{
+    @extend .buttonB;
+    font-size:14px;
+    padding: 0.5em 1em;
+}
+
+.buttonD{
+    @include buttonizer(
+    "auto", //$padding: "auto",
+    #777, //$border-color:#d4d4d4,
+    0 0 0,//$text-shadow: 1px 1px 0 #fff,
+    11px, //$font-size:11px,
+    #333,//$color:#333,
+    #dadada linear-gradient(#f6f6f6, #dadada 70%, #ccc),//$bg-normal: #ececec linear-gradient(#f4f4f4, #ececec),
+    0.2em,//$border-radius: 0.2em,
+    0 0 0,//$text-shadow-hover-active-selected:-1px -1px 0 rgba(0,0,0,0.3),
+    #111,//$color-hover-active-selected: #FFF,
+    #555,//$border-color-hover:#3072b3,
+    #222,//$border-bottom-color-hover:#2a65a0,
+    #dadada linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1),   //$bg-hover: #3C8DDE linear-gradient(#599bdc, #3072b3),
+    #555,//$border-color-active-selected:#2a65a0,
+    #222,//$border-bottom-color-active-selected:#3884CF,
+    #dadada linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb),//$bg-active-selected:#3072b3 linear-gradient(#3072b3, #599bdc)
+    inset 0px 1px 5px #777,//$box-shadow-active:false,
+    inset 0px 1px 5px #222,//$box-shadow-selected:,
+    true // $iOSicon:false
+    );
+}
+
+
+.button-group{
+    @include button-group;
+}
+
+.vertical-button-group{
+    @include vertical-button-group;
+}
+
+.button-container{
+    @include button-container;
+}

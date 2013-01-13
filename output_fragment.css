@@ -1,0 +1,1365 @@
+
+
+.buttonA + .buttonA, #frontpage #login input[type='submit'] + .buttonA, #frontpage #login .buttonA + input[type='submit'], #frontpage #login input[type='submit'] + input[type='submit'],
+.buttonA + .button-group,
+#frontpage #login input[type='submit'] + .button-group,
+.button-group + .buttonA,
+#frontpage #login .button-group + input[type='submit'],
+.button-group + .button-group {
+  margin-left: 15px;
+}
+
+
+.buttonB + .buttonB, .buttonC + .buttonB, .buttonB + .buttonC, .buttonC + .buttonC,
+.buttonB + .button-group,
+.buttonC + .button-group,
+.button-group + .buttonB,
+.button-group + .buttonC,
+.button-group + .button-group {
+  margin-left: 15px;
+}
+
+
+.buttonD + .buttonD,
+.buttonD + .button-group,
+.button-group + .buttonD,
+.button-group + .button-group {
+  margin-left: 15px;
+}
+
+
+.buttonA, #frontpage #login input[type='submit'] {
+  padding: 6px 11px;
+  min-height: 11px;
+  position: relative;
+  overflow: visible;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0;
+  border: 1px solid #d4d4d4;
+  text-decoration: none;
+  text-shadown: 1px 1px 0 white;
+  font: 11px sans-serif;
+  line-height: 1;
+  color: #333333;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  background: #ececec url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VjZWNlYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #ececec -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #ececec));
+  background: #ececec -webkit-linear-gradient(#f4f4f4, #ececec);
+  background: #ececec -moz-linear-gradient(#f4f4f4, #ececec);
+  background: #ececec -o-linear-gradient(#f4f4f4, #ececec);
+  background: #ececec linear-gradient(#f4f4f4, #ececec);
+  
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
+  border-radius: 0.2em;
+}
+
+.buttonA:visited, #frontpage #login input[type='submit']:visited {
+  color: #333333;
+}
+
+.buttonA:focus, #frontpage #login input[type='submit']:focus {
+  color: #333333;
+}
+
+.buttonA:hover, #frontpage #login input[type='submit']:hover, #frontpage #register form input[type='submit'], #overlay .overlay_content_wrapper .overlay_content .ft .done_btn, .submit_action .buttonA.high, .submit_action #frontpage #login input.high[type='submit'], #frontpage #login .submit_action input.high[type='submit'], #submitters_controller.home_action .buttonA.high, #submitters_controller.home_action #frontpage #login input.high[type='submit'], #frontpage #login #submitters_controller.home_action input.high[type='submit'], .new_action .buttonA.high, .new_action #frontpage #login input.high[type='submit'], #frontpage #login .new_action input.high[type='submit'], .edit_action .buttonA.high, .edit_action #frontpage #login input.high[type='submit'], #frontpage #login .edit_action input.high[type='submit'] {
+  color: #333333;
+}
+
+.buttonA:active, #frontpage #login input[type='submit']:active {
+  color: #333333;
+}
+
+.buttonA:hover, #frontpage #login input[type='submit']:hover, #frontpage #register form input[type='submit'], #overlay .overlay_content_wrapper .overlay_content .ft .done_btn, .submit_action .buttonA.high, .submit_action #frontpage #login input.high[type='submit'], #frontpage #login .submit_action input.high[type='submit'], #submitters_controller.home_action .buttonA.high, #submitters_controller.home_action #frontpage #login input.high[type='submit'], #frontpage #login #submitters_controller.home_action input.high[type='submit'], .new_action .buttonA.high, .new_action #frontpage #login input.high[type='submit'], #frontpage #login .new_action input.high[type='submit'], .edit_action .buttonA.high, .edit_action #frontpage #login input.high[type='submit'], #frontpage #login .edit_action input.high[type='submit'], .buttonA:focus, #frontpage #login input[type='submit']:focus, .buttonA:active, #frontpage #login input[type='submit']:active, .buttonA.selected, #frontpage #login input.selected[type='submit'] {
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.buttonA:hover, #frontpage #login input[type='submit']:hover, #frontpage #register form input[type='submit'], #overlay .overlay_content_wrapper .overlay_content .ft .done_btn, .submit_action .buttonA.high, .submit_action #frontpage #login input.high[type='submit'], #frontpage #login .submit_action input.high[type='submit'], #submitters_controller.home_action .buttonA.high, #submitters_controller.home_action #frontpage #login input.high[type='submit'], #frontpage #login #submitters_controller.home_action input.high[type='submit'], .new_action .buttonA.high, .new_action #frontpage #login input.high[type='submit'], #frontpage #login .new_action input.high[type='submit'], .edit_action .buttonA.high, .edit_action #frontpage #login input.high[type='submit'], #frontpage #login .edit_action input.high[type='submit'], .buttonA:focus, #frontpage #login input[type='submit']:focus {
+  border-color: #3072b3;
+  border-bottom-color: #2a65a0;
+  background: #3c8dde url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU5OWJkYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMwNzJiMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #3c8dde -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #599bdc), color-stop(100%, #3072b3));
+  background: #3c8dde -webkit-linear-gradient(#599bdc, #3072b3);
+  background: #3c8dde -moz-linear-gradient(#599bdc, #3072b3);
+  background: #3c8dde -o-linear-gradient(#599bdc, #3072b3);
+  background: #3c8dde linear-gradient(#599bdc, #3072b3);
+}
+
+.buttonA:active, #frontpage #login input[type='submit']:active, .buttonA.selected, #frontpage #login input.selected[type='submit'] {
+  border-color: #2a65a0;
+  border-bottom-color: #3884cf;
+  background: #3072b3 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMwNzJiMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzU5OWJkYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #3072b3 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3072b3), color-stop(100%, #599bdc));
+  background: #3072b3 -webkit-linear-gradient(#3072b3, #599bdc);
+  background: #3072b3 -moz-linear-gradient(#3072b3, #599bdc);
+  background: #3072b3 -o-linear-gradient(#3072b3, #599bdc);
+  background: #3072b3 linear-gradient(#3072b3, #599bdc);
+}
+
+.buttonA::-moz-focus-inner, #frontpage #login input[type='submit']::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.buttonA.icon:before, #frontpage #login input.icon[type='submit']:before, .buttonA.only_icon:before, #frontpage #login input.only_icon[type='submit']:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 0px;
+  float: left;
+  margin: 0 8px 0 -3px;
+  background: url(images/css3-github-buttons-icons.png) 0 0 no-repeat;
+}
+
+.buttonA.only_icon, #frontpage #login input.only_icon[type='submit'] {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.buttonA.only_icon:before, #frontpage #login input.only_icon[type='submit']:before {
+  margin: 0;
+}
+
+.buttonA.icon.small:before, #frontpage #login input.icon.small[type='submit']:before, .buttonA.only_icon.small:before, #frontpage #login input.only_icon.small[type='submit']:before {
+  width: 8px;
+  height: 8px;
+  top: 1px;
+  background: red  0 0 no-repeat;
+}
+
+.buttonA.primary, #frontpage #login input.primary[type='submit'] {
+  font-weight: bold;
+}
+
+.buttonA.danger, #frontpage #login input.danger[type='submit'] {
+  color: #900;
+}
+
+.buttonA.danger:hover, #frontpage #login input.danger[type='submit']:hover, #frontpage #register form input.danger[type='submit'], #overlay .overlay_content_wrapper .overlay_content .ft .danger.done_btn, .submit_action .danger.buttonA.high, .submit_action #frontpage #login input.danger.high[type='submit'], #frontpage #login .submit_action input.danger.high[type='submit'], #submitters_controller.home_action .danger.buttonA.high, #submitters_controller.home_action #frontpage #login input.danger.high[type='submit'], #frontpage #login #submitters_controller.home_action input.danger.high[type='submit'], .new_action .danger.buttonA.high, .new_action #frontpage #login input.danger.high[type='submit'], #frontpage #login .new_action input.danger.high[type='submit'], .edit_action .danger.buttonA.high, .edit_action #frontpage #login input.danger.high[type='submit'], #frontpage #login .edit_action input.danger.high[type='submit'], .buttonA.danger:focus, #frontpage #login input.danger[type='submit']:focus, .buttonA.danger:active, #frontpage #login input.danger[type='submit']:active {
+  border-color: #b53f3a;
+  border-bottom-color: #a0302a;
+  color: #fff;
+  background: #dc5f59 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RjNWY1OSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2IzMzYzMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #dc5f59 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dc5f59), color-stop(100%, #b33630));
+  background: #dc5f59 -webkit-linear-gradient(#dc5f59, #b33630);
+  background: #dc5f59 -moz-linear-gradient(#dc5f59, #b33630);
+  background: #dc5f59 -o-linear-gradient(#dc5f59, #b33630);
+  background: #dc5f59 linear-gradient(#dc5f59, #b33630);
+}
+
+.buttonA.danger.active, #frontpage #login input.danger.active[type='submit'], .buttonA.danger:active, #frontpage #login input.danger[type='submit']:active {
+  border-color: #a0302a;
+  border-bottom-color: #bf4843;
+  background: #b33630 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IzMzYzMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RjNWY1OSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #b33630 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b33630), color-stop(100%, #dc5f59));
+  background: #b33630 -webkit-linear-gradient(#b33630, #dc5f59);
+  background: #b33630 -moz-linear-gradient(#b33630, #dc5f59);
+  background: #b33630 -o-linear-gradient(#b33630, #dc5f59);
+  background: #b33630 linear-gradient(#b33630, #dc5f59);
+}
+
+.buttonA.arrowup:before, #frontpage #login input.arrowup[type='submit']:before {
+  background-position: 0 0;
+}
+
+.buttonA.arrowup:hover:before, #frontpage #login input.arrowup[type='submit']:hover:before, #frontpage #register form input.arrowup[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .arrowup.done_btn:before, .submit_action .arrowup.buttonA.high:before, .submit_action #frontpage #login input.arrowup.high[type='submit']:before, #frontpage #login .submit_action input.arrowup.high[type='submit']:before, #submitters_controller.home_action .arrowup.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.arrowup.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.arrowup.high[type='submit']:before, .new_action .arrowup.buttonA.high:before, .new_action #frontpage #login input.arrowup.high[type='submit']:before, #frontpage #login .new_action input.arrowup.high[type='submit']:before, .edit_action .arrowup.buttonA.high:before, .edit_action #frontpage #login input.arrowup.high[type='submit']:before, #frontpage #login .edit_action input.arrowup.high[type='submit']:before, .buttonA.arrowup:focus:before, #frontpage #login input.arrowup[type='submit']:focus:before, .buttonA.arrowup:active:before, #frontpage #login input.arrowup[type='submit']:active:before {
+  background-position: -12px 0;
+}
+
+.buttonA.arrowdown:before, #frontpage #login input.arrowdown[type='submit']:before {
+  background-position: 0 -12px;
+}
+
+.buttonA.arrowdown:hover:before, #frontpage #login input.arrowdown[type='submit']:hover:before, #frontpage #register form input.arrowdown[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .arrowdown.done_btn:before, .submit_action .arrowdown.buttonA.high:before, .submit_action #frontpage #login input.arrowdown.high[type='submit']:before, #frontpage #login .submit_action input.arrowdown.high[type='submit']:before, #submitters_controller.home_action .arrowdown.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.arrowdown.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.arrowdown.high[type='submit']:before, .new_action .arrowdown.buttonA.high:before, .new_action #frontpage #login input.arrowdown.high[type='submit']:before, #frontpage #login .new_action input.arrowdown.high[type='submit']:before, .edit_action .arrowdown.buttonA.high:before, .edit_action #frontpage #login input.arrowdown.high[type='submit']:before, #frontpage #login .edit_action input.arrowdown.high[type='submit']:before, .buttonA.arrowdown:focus:before, #frontpage #login input.arrowdown[type='submit']:focus:before, .buttonA.arrowdown:active:before, #frontpage #login input.arrowdown[type='submit']:active:before {
+  background-position: -12px -12px;
+}
+
+.buttonA.arrowleft:before, #frontpage #login input.arrowleft[type='submit']:before {
+  background-position: 0 -24px;
+}
+
+.buttonA.arrowleft:hover:before, #frontpage #login input.arrowleft[type='submit']:hover:before, #frontpage #register form input.arrowleft[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .arrowleft.done_btn:before, .submit_action .arrowleft.buttonA.high:before, .submit_action #frontpage #login input.arrowleft.high[type='submit']:before, #frontpage #login .submit_action input.arrowleft.high[type='submit']:before, #submitters_controller.home_action .arrowleft.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.arrowleft.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.arrowleft.high[type='submit']:before, .new_action .arrowleft.buttonA.high:before, .new_action #frontpage #login input.arrowleft.high[type='submit']:before, #frontpage #login .new_action input.arrowleft.high[type='submit']:before, .edit_action .arrowleft.buttonA.high:before, .edit_action #frontpage #login input.arrowleft.high[type='submit']:before, #frontpage #login .edit_action input.arrowleft.high[type='submit']:before, .buttonA.arrowleft:focus:before, #frontpage #login input.arrowleft[type='submit']:focus:before, .buttonA.arrowleft:active:before, #frontpage #login input.arrowleft[type='submit']:active:before {
+  background-position: -12px -24px;
+}
+
+.buttonA.arrowright:before, #frontpage #login input.arrowright[type='submit']:before {
+  float: right;
+  margin: 0 -0.25em 0 0.5em;
+  background-position: 0 -36px;
+}
+
+.buttonA.arrowright:hover:before, #frontpage #login input.arrowright[type='submit']:hover:before, #frontpage #register form input.arrowright[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .arrowright.done_btn:before, .submit_action .arrowright.buttonA.high:before, .submit_action #frontpage #login input.arrowright.high[type='submit']:before, #frontpage #login .submit_action input.arrowright.high[type='submit']:before, #submitters_controller.home_action .arrowright.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.arrowright.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.arrowright.high[type='submit']:before, .new_action .arrowright.buttonA.high:before, .new_action #frontpage #login input.arrowright.high[type='submit']:before, #frontpage #login .new_action input.arrowright.high[type='submit']:before, .edit_action .arrowright.buttonA.high:before, .edit_action #frontpage #login input.arrowright.high[type='submit']:before, #frontpage #login .edit_action input.arrowright.high[type='submit']:before, .buttonA.arrowright:focus:before, #frontpage #login input.arrowright[type='submit']:focus:before, .buttonA.arrowright:active:before, #frontpage #login input.arrowright[type='submit']:active:before {
+  background-position: -12px -36px;
+}
+
+.buttonA.approve:before, #frontpage #login input.approve[type='submit']:before {
+  background-position: 0 -48px;
+}
+
+.buttonA.approve:hover:before, #frontpage #login input.approve[type='submit']:hover:before, #frontpage #register form input.approve[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .approve.done_btn:before, .submit_action .approve.buttonA.high:before, .submit_action #frontpage #login input.approve.high[type='submit']:before, #frontpage #login .submit_action input.approve.high[type='submit']:before, #submitters_controller.home_action .approve.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.approve.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.approve.high[type='submit']:before, .new_action .approve.buttonA.high:before, .new_action #frontpage #login input.approve.high[type='submit']:before, #frontpage #login .new_action input.approve.high[type='submit']:before, .edit_action .approve.buttonA.high:before, .edit_action #frontpage #login input.approve.high[type='submit']:before, #frontpage #login .edit_action input.approve.high[type='submit']:before, .buttonA.approve:focus:before, #frontpage #login input.approve[type='submit']:focus:before, .buttonA.approve:active:before, #frontpage #login input.approve[type='submit']:active:before {
+  background-position: -12px -48px;
+}
+
+.buttonA.add:before, #frontpage #login input.add[type='submit']:before {
+  background-position: 0 -288px;
+}
+
+.buttonA.add:hover:before, #frontpage #login input.add[type='submit']:hover:before, #frontpage #register form input.add[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .add.done_btn:before, .submit_action .add.buttonA.high:before, .submit_action #frontpage #login input.add.high[type='submit']:before, #frontpage #login .submit_action input.add.high[type='submit']:before, #submitters_controller.home_action .add.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.add.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.add.high[type='submit']:before, .new_action .add.buttonA.high:before, .new_action #frontpage #login input.add.high[type='submit']:before, #frontpage #login .new_action input.add.high[type='submit']:before, .edit_action .add.buttonA.high:before, .edit_action #frontpage #login input.add.high[type='submit']:before, #frontpage #login .edit_action input.add.high[type='submit']:before, .buttonA.add:focus:before, #frontpage #login input.add[type='submit']:focus:before, .buttonA.add:active:before, #frontpage #login input.add[type='submit']:active:before {
+  background-position: -12px -288px;
+}
+
+.buttonA.remove:before, #frontpage #login input.remove[type='submit']:before {
+  background-position: 0 -60px;
+}
+
+.buttonA.remove:hover:before, #frontpage #login input.remove[type='submit']:hover:before, #frontpage #register form input.remove[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .remove.done_btn:before, .submit_action .remove.buttonA.high:before, .submit_action #frontpage #login input.remove.high[type='submit']:before, #frontpage #login .submit_action input.remove.high[type='submit']:before, #submitters_controller.home_action .remove.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.remove.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.remove.high[type='submit']:before, .new_action .remove.buttonA.high:before, .new_action #frontpage #login input.remove.high[type='submit']:before, #frontpage #login .new_action input.remove.high[type='submit']:before, .edit_action .remove.buttonA.high:before, .edit_action #frontpage #login input.remove.high[type='submit']:before, #frontpage #login .edit_action input.remove.high[type='submit']:before, .buttonA.remove:focus:before, #frontpage #login input.remove[type='submit']:focus:before, .buttonA.remove:active:before, #frontpage #login input.remove[type='submit']:active:before {
+  background-position: -12px -60px;
+}
+
+.buttonA.log:before, #frontpage #login input.log[type='submit']:before {
+  background-position: 0 -72px;
+}
+
+.buttonA.log:hover:before, #frontpage #login input.log[type='submit']:hover:before, #frontpage #register form input.log[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .log.done_btn:before, .submit_action .log.buttonA.high:before, .submit_action #frontpage #login input.log.high[type='submit']:before, #frontpage #login .submit_action input.log.high[type='submit']:before, #submitters_controller.home_action .log.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.log.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.log.high[type='submit']:before, .new_action .log.buttonA.high:before, .new_action #frontpage #login input.log.high[type='submit']:before, #frontpage #login .new_action input.log.high[type='submit']:before, .edit_action .log.buttonA.high:before, .edit_action #frontpage #login input.log.high[type='submit']:before, #frontpage #login .edit_action input.log.high[type='submit']:before, .buttonA.log:focus:before, #frontpage #login input.log[type='submit']:focus:before, .buttonA.log:active:before, #frontpage #login input.log[type='submit']:active:before {
+  background-position: -12px -72px;
+}
+
+.buttonA.calendar:before, #frontpage #login input.calendar[type='submit']:before {
+  background-position: 0 -84px;
+}
+
+.buttonA.calendar:hover:before, #frontpage #login input.calendar[type='submit']:hover:before, #frontpage #register form input.calendar[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .calendar.done_btn:before, .submit_action .calendar.buttonA.high:before, .submit_action #frontpage #login input.calendar.high[type='submit']:before, #frontpage #login .submit_action input.calendar.high[type='submit']:before, #submitters_controller.home_action .calendar.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.calendar.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.calendar.high[type='submit']:before, .new_action .calendar.buttonA.high:before, .new_action #frontpage #login input.calendar.high[type='submit']:before, #frontpage #login .new_action input.calendar.high[type='submit']:before, .edit_action .calendar.buttonA.high:before, .edit_action #frontpage #login input.calendar.high[type='submit']:before, #frontpage #login .edit_action input.calendar.high[type='submit']:before, .buttonA.calendar:focus:before, #frontpage #login input.calendar[type='submit']:focus:before, .buttonA.calendar:active:before, #frontpage #login input.calendar[type='submit']:active:before {
+  background-position: -12px -84px;
+}
+
+.buttonA.chat:before, #frontpage #login input.chat[type='submit']:before {
+  background-position: 0 -96px;
+}
+
+.buttonA.chat:hover:before, #frontpage #login input.chat[type='submit']:hover:before, #frontpage #register form input.chat[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .chat.done_btn:before, .submit_action .chat.buttonA.high:before, .submit_action #frontpage #login input.chat.high[type='submit']:before, #frontpage #login .submit_action input.chat.high[type='submit']:before, #submitters_controller.home_action .chat.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.chat.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.chat.high[type='submit']:before, .new_action .chat.buttonA.high:before, .new_action #frontpage #login input.chat.high[type='submit']:before, #frontpage #login .new_action input.chat.high[type='submit']:before, .edit_action .chat.buttonA.high:before, .edit_action #frontpage #login input.chat.high[type='submit']:before, #frontpage #login .edit_action input.chat.high[type='submit']:before, .buttonA.chat:focus:before, #frontpage #login input.chat[type='submit']:focus:before, .buttonA.chat:active:before, #frontpage #login input.chat[type='submit']:active:before {
+  background-position: -12px -96px;
+}
+
+.buttonA.clock:before, #frontpage #login input.clock[type='submit']:before {
+  background-position: 0 -108px;
+}
+
+.buttonA.clock:hover:before, #frontpage #login input.clock[type='submit']:hover:before, #frontpage #register form input.clock[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .clock.done_btn:before, .submit_action .clock.buttonA.high:before, .submit_action #frontpage #login input.clock.high[type='submit']:before, #frontpage #login .submit_action input.clock.high[type='submit']:before, #submitters_controller.home_action .clock.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.clock.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.clock.high[type='submit']:before, .new_action .clock.buttonA.high:before, .new_action #frontpage #login input.clock.high[type='submit']:before, #frontpage #login .new_action input.clock.high[type='submit']:before, .edit_action .clock.buttonA.high:before, .edit_action #frontpage #login input.clock.high[type='submit']:before, #frontpage #login .edit_action input.clock.high[type='submit']:before, .buttonA.clock:focus:before, #frontpage #login input.clock[type='submit']:focus:before, .buttonA.clock:active:before, #frontpage #login input.clock[type='submit']:active:before {
+  background-position: -12px -108px;
+}
+
+.buttonA.settings:before, #frontpage #login input.settings[type='submit']:before {
+  background-position: 0 -120px;
+}
+
+.buttonA.settings:hover:before, #frontpage #login input.settings[type='submit']:hover:before, #frontpage #register form input.settings[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .settings.done_btn:before, .submit_action .settings.buttonA.high:before, .submit_action #frontpage #login input.settings.high[type='submit']:before, #frontpage #login .submit_action input.settings.high[type='submit']:before, #submitters_controller.home_action .settings.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.settings.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.settings.high[type='submit']:before, .new_action .settings.buttonA.high:before, .new_action #frontpage #login input.settings.high[type='submit']:before, #frontpage #login .new_action input.settings.high[type='submit']:before, .edit_action .settings.buttonA.high:before, .edit_action #frontpage #login input.settings.high[type='submit']:before, #frontpage #login .edit_action input.settings.high[type='submit']:before, .buttonA.settings:focus:before, #frontpage #login input.settings[type='submit']:focus:before, .buttonA.settings:active:before, #frontpage #login input.settings[type='submit']:active:before {
+  background-position: -12px -120px;
+}
+
+.buttonA.comment:before, #frontpage #login input.comment[type='submit']:before {
+  background-position: 0 -132px;
+}
+
+.buttonA.comment:hover:before, #frontpage #login input.comment[type='submit']:hover:before, #frontpage #register form input.comment[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .comment.done_btn:before, .submit_action .comment.buttonA.high:before, .submit_action #frontpage #login input.comment.high[type='submit']:before, #frontpage #login .submit_action input.comment.high[type='submit']:before, #submitters_controller.home_action .comment.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.comment.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.comment.high[type='submit']:before, .new_action .comment.buttonA.high:before, .new_action #frontpage #login input.comment.high[type='submit']:before, #frontpage #login .new_action input.comment.high[type='submit']:before, .edit_action .comment.buttonA.high:before, .edit_action #frontpage #login input.comment.high[type='submit']:before, #frontpage #login .edit_action input.comment.high[type='submit']:before, .buttonA.comment:focus:before, #frontpage #login input.comment[type='submit']:focus:before, .buttonA.comment:active:before, #frontpage #login input.comment[type='submit']:active:before {
+  background-position: -12px -132px;
+}
+
+.buttonA.fork:before, #frontpage #login input.fork[type='submit']:before {
+  background-position: 0 -144px;
+}
+
+.buttonA.fork:hover:before, #frontpage #login input.fork[type='submit']:hover:before, #frontpage #register form input.fork[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .fork.done_btn:before, .submit_action .fork.buttonA.high:before, .submit_action #frontpage #login input.fork.high[type='submit']:before, #frontpage #login .submit_action input.fork.high[type='submit']:before, #submitters_controller.home_action .fork.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.fork.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.fork.high[type='submit']:before, .new_action .fork.buttonA.high:before, .new_action #frontpage #login input.fork.high[type='submit']:before, #frontpage #login .new_action input.fork.high[type='submit']:before, .edit_action .fork.buttonA.high:before, .edit_action #frontpage #login input.fork.high[type='submit']:before, #frontpage #login .edit_action input.fork.high[type='submit']:before, .buttonA.fork:focus:before, #frontpage #login input.fork[type='submit']:focus:before, .buttonA.fork:active:before, #frontpage #login input.fork[type='submit']:active:before {
+  background-position: -12px -144px;
+}
+
+.buttonA.like:before, #frontpage #login input.like[type='submit']:before {
+  background-position: 0 -156px;
+}
+
+.buttonA.like:hover:before, #frontpage #login input.like[type='submit']:hover:before, #frontpage #register form input.like[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .like.done_btn:before, .submit_action .like.buttonA.high:before, .submit_action #frontpage #login input.like.high[type='submit']:before, #frontpage #login .submit_action input.like.high[type='submit']:before, #submitters_controller.home_action .like.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.like.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.like.high[type='submit']:before, .new_action .like.buttonA.high:before, .new_action #frontpage #login input.like.high[type='submit']:before, #frontpage #login .new_action input.like.high[type='submit']:before, .edit_action .like.buttonA.high:before, .edit_action #frontpage #login input.like.high[type='submit']:before, #frontpage #login .edit_action input.like.high[type='submit']:before, .buttonA.like:focus:before, #frontpage #login input.like[type='submit']:focus:before, .buttonA.like:active:before, #frontpage #login input.like[type='submit']:active:before {
+  background-position: -12px -156px;
+}
+
+.buttonA.favorite:before, #frontpage #login input.favorite[type='submit']:before {
+  background-position: 0 -348px;
+}
+
+.buttonA.favorite:hover:before, #frontpage #login input.favorite[type='submit']:hover:before, #frontpage #register form input.favorite[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .favorite.done_btn:before, .submit_action .favorite.buttonA.high:before, .submit_action #frontpage #login input.favorite.high[type='submit']:before, #frontpage #login .submit_action input.favorite.high[type='submit']:before, #submitters_controller.home_action .favorite.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.favorite.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.favorite.high[type='submit']:before, .new_action .favorite.buttonA.high:before, .new_action #frontpage #login input.favorite.high[type='submit']:before, #frontpage #login .new_action input.favorite.high[type='submit']:before, .edit_action .favorite.buttonA.high:before, .edit_action #frontpage #login input.favorite.high[type='submit']:before, #frontpage #login .edit_action input.favorite.high[type='submit']:before, .buttonA.favorite:focus:before, #frontpage #login input.favorite[type='submit']:focus:before, .buttonA.favorite:active:before, #frontpage #login input.favorite[type='submit']:active:before {
+  background-position: -12px -348px;
+}
+
+.buttonA.home:before, #frontpage #login input.home[type='submit']:before {
+  background-position: 0 -168px;
+}
+
+.buttonA.home:hover:before, #frontpage #login input.home[type='submit']:hover:before, #frontpage #register form input.home[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .home.done_btn:before, .submit_action .home.buttonA.high:before, .submit_action #frontpage #login input.home.high[type='submit']:before, #frontpage #login .submit_action input.home.high[type='submit']:before, #submitters_controller.home_action .home.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.home.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.home.high[type='submit']:before, .new_action .home.buttonA.high:before, .new_action #frontpage #login input.home.high[type='submit']:before, #frontpage #login .new_action input.home.high[type='submit']:before, .edit_action .home.buttonA.high:before, .edit_action #frontpage #login input.home.high[type='submit']:before, #frontpage #login .edit_action input.home.high[type='submit']:before, .buttonA.home:focus:before, #frontpage #login input.home[type='submit']:focus:before, .buttonA.home:active:before, #frontpage #login input.home[type='submit']:active:before {
+  background-position: -12px -168px;
+}
+
+.buttonA.key:before, #frontpage #login input.key[type='submit']:before {
+  background-position: 0 -180px;
+}
+
+.buttonA.key:hover:before, #frontpage #login input.key[type='submit']:hover:before, #frontpage #register form input.key[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .key.done_btn:before, .submit_action .key.buttonA.high:before, .submit_action #frontpage #login input.key.high[type='submit']:before, #frontpage #login .submit_action input.key.high[type='submit']:before, #submitters_controller.home_action .key.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.key.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.key.high[type='submit']:before, .new_action .key.buttonA.high:before, .new_action #frontpage #login input.key.high[type='submit']:before, #frontpage #login .new_action input.key.high[type='submit']:before, .edit_action .key.buttonA.high:before, .edit_action #frontpage #login input.key.high[type='submit']:before, #frontpage #login .edit_action input.key.high[type='submit']:before, .buttonA.key:focus:before, #frontpage #login input.key[type='submit']:focus:before, .buttonA.key:active:before, #frontpage #login input.key[type='submit']:active:before {
+  background-position: -12px -180px;
+}
+
+.buttonA.lock:before, #frontpage #login input.lock[type='submit']:before {
+  background-position: 0 -192px;
+}
+
+.buttonA.lock:hover:before, #frontpage #login input.lock[type='submit']:hover:before, #frontpage #register form input.lock[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .lock.done_btn:before, .submit_action .lock.buttonA.high:before, .submit_action #frontpage #login input.lock.high[type='submit']:before, #frontpage #login .submit_action input.lock.high[type='submit']:before, #submitters_controller.home_action .lock.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.lock.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.lock.high[type='submit']:before, .new_action .lock.buttonA.high:before, .new_action #frontpage #login input.lock.high[type='submit']:before, #frontpage #login .new_action input.lock.high[type='submit']:before, .edit_action .lock.buttonA.high:before, .edit_action #frontpage #login input.lock.high[type='submit']:before, #frontpage #login .edit_action input.lock.high[type='submit']:before, .buttonA.lock:focus:before, #frontpage #login input.lock[type='submit']:focus:before, .buttonA.lock:active:before, #frontpage #login input.lock[type='submit']:active:before {
+  background-position: -12px -192px;
+}
+
+.buttonA.unlock:before, #frontpage #login input.unlock[type='submit']:before {
+  background-position: 0 -204px;
+}
+
+.buttonA.unlock:hover:before, #frontpage #login input.unlock[type='submit']:hover:before, #frontpage #register form input.unlock[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .unlock.done_btn:before, .submit_action .unlock.buttonA.high:before, .submit_action #frontpage #login input.unlock.high[type='submit']:before, #frontpage #login .submit_action input.unlock.high[type='submit']:before, #submitters_controller.home_action .unlock.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.unlock.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.unlock.high[type='submit']:before, .new_action .unlock.buttonA.high:before, .new_action #frontpage #login input.unlock.high[type='submit']:before, #frontpage #login .new_action input.unlock.high[type='submit']:before, .edit_action .unlock.buttonA.high:before, .edit_action #frontpage #login input.unlock.high[type='submit']:before, #frontpage #login .edit_action input.unlock.high[type='submit']:before, .buttonA.unlock:focus:before, #frontpage #login input.unlock[type='submit']:focus:before, .buttonA.unlock:active:before, #frontpage #login input.unlock[type='submit']:active:before {
+  background-position: -12px -204px;
+}
+
+.buttonA.loop:before, #frontpage #login input.loop[type='submit']:before {
+  background-position: 0 -216px;
+}
+
+.buttonA.loop:hover:before, #frontpage #login input.loop[type='submit']:hover:before, #frontpage #register form input.loop[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .loop.done_btn:before, .submit_action .loop.buttonA.high:before, .submit_action #frontpage #login input.loop.high[type='submit']:before, #frontpage #login .submit_action input.loop.high[type='submit']:before, #submitters_controller.home_action .loop.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.loop.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.loop.high[type='submit']:before, .new_action .loop.buttonA.high:before, .new_action #frontpage #login input.loop.high[type='submit']:before, #frontpage #login .new_action input.loop.high[type='submit']:before, .edit_action .loop.buttonA.high:before, .edit_action #frontpage #login input.loop.high[type='submit']:before, #frontpage #login .edit_action input.loop.high[type='submit']:before, .buttonA.loop:focus:before, #frontpage #login input.loop[type='submit']:focus:before, .buttonA.loop:active:before, #frontpage #login input.loop[type='submit']:active:before {
+  background-position: -12px -216px;
+}
+
+.buttonA.search:before, #frontpage #login input.search[type='submit']:before {
+  background-position: 0 -228px;
+}
+
+.buttonA.search:hover:before, #frontpage #login input.search[type='submit']:hover:before, #frontpage #register form input.search[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .search.done_btn:before, .submit_action .search.buttonA.high:before, .submit_action #frontpage #login input.search.high[type='submit']:before, #frontpage #login .submit_action input.search.high[type='submit']:before, #submitters_controller.home_action .search.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.search.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.search.high[type='submit']:before, .new_action .search.buttonA.high:before, .new_action #frontpage #login input.search.high[type='submit']:before, #frontpage #login .new_action input.search.high[type='submit']:before, .edit_action .search.buttonA.high:before, .edit_action #frontpage #login input.search.high[type='submit']:before, #frontpage #login .edit_action input.search.high[type='submit']:before, .buttonA.search:focus:before, #frontpage #login input.search[type='submit']:focus:before, .buttonA.search:active:before, #frontpage #login input.search[type='submit']:active:before {
+  background-position: -12px -228px;
+}
+
+.buttonA.mail:before, #frontpage #login input.mail[type='submit']:before {
+  background-position: 0 -240px;
+}
+
+.buttonA.mail:hover:before, #frontpage #login input.mail[type='submit']:hover:before, #frontpage #register form input.mail[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .mail.done_btn:before, .submit_action .mail.buttonA.high:before, .submit_action #frontpage #login input.mail.high[type='submit']:before, #frontpage #login .submit_action input.mail.high[type='submit']:before, #submitters_controller.home_action .mail.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.mail.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.mail.high[type='submit']:before, .new_action .mail.buttonA.high:before, .new_action #frontpage #login input.mail.high[type='submit']:before, #frontpage #login .new_action input.mail.high[type='submit']:before, .edit_action .mail.buttonA.high:before, .edit_action #frontpage #login input.mail.high[type='submit']:before, #frontpage #login .edit_action input.mail.high[type='submit']:before, .buttonA.mail:focus:before, #frontpage #login input.mail[type='submit']:focus:before, .buttonA.mail:active:before, #frontpage #login input.mail[type='submit']:active:before {
+  background-position: -12px -240px;
+}
+
+.buttonA.move:before, #frontpage #login input.move[type='submit']:before {
+  background-position: 0 -252px;
+}
+
+.buttonA.move:hover:before, #frontpage #login input.move[type='submit']:hover:before, #frontpage #register form input.move[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .move.done_btn:before, .submit_action .move.buttonA.high:before, .submit_action #frontpage #login input.move.high[type='submit']:before, #frontpage #login .submit_action input.move.high[type='submit']:before, #submitters_controller.home_action .move.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.move.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.move.high[type='submit']:before, .new_action .move.buttonA.high:before, .new_action #frontpage #login input.move.high[type='submit']:before, #frontpage #login .new_action input.move.high[type='submit']:before, .edit_action .move.buttonA.high:before, .edit_action #frontpage #login input.move.high[type='submit']:before, #frontpage #login .edit_action input.move.high[type='submit']:before, .buttonA.move:focus:before, #frontpage #login input.move[type='submit']:focus:before, .buttonA.move:active:before, #frontpage #login input.move[type='submit']:active:before {
+  background-position: -12px -252px;
+}
+
+.buttonA.edit:before, #frontpage #login input.edit[type='submit']:before {
+  background-position: 0 -264px;
+}
+
+.buttonA.edit:hover:before, #frontpage #login input.edit[type='submit']:hover:before, #frontpage #register form input.edit[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .edit.done_btn:before, .submit_action .edit.buttonA.high:before, .submit_action #frontpage #login input.edit.high[type='submit']:before, #frontpage #login .submit_action input.edit.high[type='submit']:before, #submitters_controller.home_action .edit.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.edit.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.edit.high[type='submit']:before, .new_action .edit.buttonA.high:before, .new_action #frontpage #login input.edit.high[type='submit']:before, #frontpage #login .new_action input.edit.high[type='submit']:before, .edit_action .edit.buttonA.high:before, .edit_action #frontpage #login input.edit.high[type='submit']:before, #frontpage #login .edit_action input.edit.high[type='submit']:before, .buttonA.edit:focus:before, #frontpage #login input.edit[type='submit']:focus:before, .buttonA.edit:active:before, #frontpage #login input.edit[type='submit']:active:before {
+  background-position: -12px -264px;
+}
+
+.buttonA.pin:before, #frontpage #login input.pin[type='submit']:before {
+  background-position: 0 -276px;
+}
+
+.buttonA.pin:hover:before, #frontpage #login input.pin[type='submit']:hover:before, #frontpage #register form input.pin[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .pin.done_btn:before, .submit_action .pin.buttonA.high:before, .submit_action #frontpage #login input.pin.high[type='submit']:before, #frontpage #login .submit_action input.pin.high[type='submit']:before, #submitters_controller.home_action .pin.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.pin.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.pin.high[type='submit']:before, .new_action .pin.buttonA.high:before, .new_action #frontpage #login input.pin.high[type='submit']:before, #frontpage #login .new_action input.pin.high[type='submit']:before, .edit_action .pin.buttonA.high:before, .edit_action #frontpage #login input.pin.high[type='submit']:before, #frontpage #login .edit_action input.pin.high[type='submit']:before, .buttonA.pin:focus:before, #frontpage #login input.pin[type='submit']:focus:before, .buttonA.pin:active:before, #frontpage #login input.pin[type='submit']:active:before {
+  background-position: -12px -276px;
+}
+
+.buttonA.reload:before, #frontpage #login input.reload[type='submit']:before {
+  background-position: 0 -300px;
+}
+
+.buttonA.reload:hover:before, #frontpage #login input.reload[type='submit']:hover:before, #frontpage #register form input.reload[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .reload.done_btn:before, .submit_action .reload.buttonA.high:before, .submit_action #frontpage #login input.reload.high[type='submit']:before, #frontpage #login .submit_action input.reload.high[type='submit']:before, #submitters_controller.home_action .reload.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.reload.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.reload.high[type='submit']:before, .new_action .reload.buttonA.high:before, .new_action #frontpage #login input.reload.high[type='submit']:before, #frontpage #login .new_action input.reload.high[type='submit']:before, .edit_action .reload.buttonA.high:before, .edit_action #frontpage #login input.reload.high[type='submit']:before, #frontpage #login .edit_action input.reload.high[type='submit']:before, .buttonA.reload:focus:before, #frontpage #login input.reload[type='submit']:focus:before, .buttonA.reload:active:before, #frontpage #login input.reload[type='submit']:active:before {
+  background-position: -12px -300px;
+}
+
+.buttonA.rss:before, #frontpage #login input.rss[type='submit']:before {
+  background-position: 0 -312px;
+}
+
+.buttonA.rss:hover:before, #frontpage #login input.rss[type='submit']:hover:before, #frontpage #register form input.rss[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .rss.done_btn:before, .submit_action .rss.buttonA.high:before, .submit_action #frontpage #login input.rss.high[type='submit']:before, #frontpage #login .submit_action input.rss.high[type='submit']:before, #submitters_controller.home_action .rss.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.rss.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.rss.high[type='submit']:before, .new_action .rss.buttonA.high:before, .new_action #frontpage #login input.rss.high[type='submit']:before, #frontpage #login .new_action input.rss.high[type='submit']:before, .edit_action .rss.buttonA.high:before, .edit_action #frontpage #login input.rss.high[type='submit']:before, #frontpage #login .edit_action input.rss.high[type='submit']:before, .buttonA.rss:focus:before, #frontpage #login input.rss[type='submit']:focus:before, .buttonA.rss:active:before, #frontpage #login input.rss[type='submit']:active:before {
+  background-position: -12px -312px;
+}
+
+.buttonA.tag:before, #frontpage #login input.tag[type='submit']:before {
+  background-position: 0 -324px;
+}
+
+.buttonA.tag:hover:before, #frontpage #login input.tag[type='submit']:hover:before, #frontpage #register form input.tag[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .tag.done_btn:before, .submit_action .tag.buttonA.high:before, .submit_action #frontpage #login input.tag.high[type='submit']:before, #frontpage #login .submit_action input.tag.high[type='submit']:before, #submitters_controller.home_action .tag.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.tag.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.tag.high[type='submit']:before, .new_action .tag.buttonA.high:before, .new_action #frontpage #login input.tag.high[type='submit']:before, #frontpage #login .new_action input.tag.high[type='submit']:before, .edit_action .tag.buttonA.high:before, .edit_action #frontpage #login input.tag.high[type='submit']:before, #frontpage #login .edit_action input.tag.high[type='submit']:before, .buttonA.tag:focus:before, #frontpage #login input.tag[type='submit']:focus:before, .buttonA.tag:active:before, #frontpage #login input.tag[type='submit']:active:before {
+  background-position: -12px -324px;
+}
+
+.buttonA.trash:before, #frontpage #login input.trash[type='submit']:before {
+  background-position: 0 -336px;
+}
+
+.buttonA.trash:hover:before, #frontpage #login input.trash[type='submit']:hover:before, #frontpage #register form input.trash[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .trash.done_btn:before, .submit_action .trash.buttonA.high:before, .submit_action #frontpage #login input.trash.high[type='submit']:before, #frontpage #login .submit_action input.trash.high[type='submit']:before, #submitters_controller.home_action .trash.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.trash.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.trash.high[type='submit']:before, .new_action .trash.buttonA.high:before, .new_action #frontpage #login input.trash.high[type='submit']:before, #frontpage #login .new_action input.trash.high[type='submit']:before, .edit_action .trash.buttonA.high:before, .edit_action #frontpage #login input.trash.high[type='submit']:before, #frontpage #login .edit_action input.trash.high[type='submit']:before, .buttonA.trash:focus:before, #frontpage #login input.trash[type='submit']:focus:before, .buttonA.trash:active:before, #frontpage #login input.trash[type='submit']:active:before {
+  background-position: -12px -336px;
+}
+
+.buttonA.user:before, #frontpage #login input.user[type='submit']:before {
+  background-position: 0 -360px;
+}
+
+.buttonA.user:hover:before, #frontpage #login input.user[type='submit']:hover:before, #frontpage #register form input.user[type='submit']:before, #overlay .overlay_content_wrapper .overlay_content .ft .user.done_btn:before, .submit_action .user.buttonA.high:before, .submit_action #frontpage #login input.user.high[type='submit']:before, #frontpage #login .submit_action input.user.high[type='submit']:before, #submitters_controller.home_action .user.buttonA.high:before, #submitters_controller.home_action #frontpage #login input.user.high[type='submit']:before, #frontpage #login #submitters_controller.home_action input.user.high[type='submit']:before, .new_action .user.buttonA.high:before, .new_action #frontpage #login input.user.high[type='submit']:before, #frontpage #login .new_action input.user.high[type='submit']:before, .edit_action .user.buttonA.high:before, .edit_action #frontpage #login input.user.high[type='submit']:before, #frontpage #login .edit_action input.user.high[type='submit']:before, .buttonA.user:focus:before, #frontpage #login input.user[type='submit']:focus:before, .buttonA.user:active:before, #frontpage #login input.user[type='submit']:active:before {
+  background-position: -12px -360px;
+}
+
+.buttonA.grid.small:before, #frontpage #login input.grid.small[type='submit']:before {
+  background: transparent url(images/icon_grid.png) 0 0 no-repeat;
+}
+
+.buttonA.list.small:before, #frontpage #login input.list.small[type='submit']:before {
+  background: transparent url(images/icon_list.png) 0 0 no-repeat;
+}
+
+
+.buttonB, .buttonC {
+  padding: 6px 11px;
+  min-height: 11px;
+  position: relative;
+  overflow: visible;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0;
+  border: 1px solid #777777;
+  text-decoration: none;
+  text-shadown: 0 0 0;
+  font: 11px sans-serif;
+  line-height: 1;
+  color: #333333;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  background: #dadada url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIvPjxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjZGFkYWRhIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: #dadada -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6f6f6), color-stop(70%, #dadada), color-stop(100%, #cccccc));
+  background: #dadada -webkit-linear-gradient(#f6f6f6, #dadada 70%, #cccccc);
+  background: #dadada -moz-linear-gradient(#f6f6f6, #dadada 70%, #cccccc);
+  background: #dadada -o-linear-gradient(#f6f6f6, #dadada 70%, #cccccc);
+  background: #dadada linear-gradient(#f6f6f6, #dadada 70%, #cccccc);
+  
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
+  border-radius: 0.2em;
+}
+
+.buttonB:visited, .buttonC:visited {
+  color: #333333;
+}
+
+.buttonB:focus, .buttonC:focus {
+  color: #333333;
+}
+
+.buttonB:hover, .buttonC:hover {
+  color: #333333;
+}
+
+.buttonB:active, .buttonC:active {
+  color: #333333;
+}
+
+.buttonB:hover, .buttonC:hover, .buttonB:focus, .buttonC:focus, .buttonB:active, .buttonC:active, .buttonB.selected, .selected.buttonC {
+  text-decoration: none;
+  text-shadow: 0 0 0;
+  color: #111111;
+}
+
+.buttonB:hover, .buttonC:hover, .buttonB:focus, .buttonC:focus {
+  border-color: #555555;
+  border-bottom-color: #222222;
+  background: #dadada url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIvPjxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjZTFlMWUxIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDFkMWQxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: #dadada -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6f6f6), color-stop(70%, #e1e1e1), color-stop(100%, #d1d1d1));
+  background: #dadada -webkit-linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1);
+  background: #dadada -moz-linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1);
+  background: #dadada -o-linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1);
+  background: #dadada linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1);
+}
+
+.buttonB:active, .buttonC:active, .buttonB.selected, .selected.buttonC {
+  border-color: #555555;
+  border-bottom-color: #222222;
+  background: #dadada url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjYzNjM2MzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYmJiYmJiIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: #dadada -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(70%, #c3c3c3), color-stop(100%, #bbbbbb));
+  background: #dadada -webkit-linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb);
+  background: #dadada -moz-linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb);
+  background: #dadada -o-linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb);
+  background: #dadada linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb);
+}
+
+.buttonB:active, .buttonC:active {
+  -webkit-box-shadow: inset 0px 1px 5px #777777;
+  -moz-box-shadow: inset 0px 1px 5px #777777;
+  box-shadow: inset 0px 1px 5px #777777;
+}
+
+.buttonB.selected, .selected.buttonC {
+  -webkit-box-shadow: inset 0px 1px 5px #222222;
+  -moz-box-shadow: inset 0px 1px 5px #222222;
+  box-shadow: inset 0px 1px 5px #222222;
+}
+
+.buttonB::-moz-focus-inner, .buttonC::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.buttonB.icon:before, .icon.buttonC:before, .buttonB.only_icon:before, .only_icon.buttonC:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 0px;
+  float: left;
+  margin: 0 8px 0 -3px;
+  background: url(images/css3buttons/css3-github-buttons-icons.png) 0 0 no-repeat;
+}
+
+.buttonB.only_icon, .only_icon.buttonC {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.buttonB.only_icon:before, .only_icon.buttonC:before {
+  margin: 0;
+}
+
+.buttonB.icon.small:before, .icon.small.buttonC:before, .buttonB.only_icon.small:before, .only_icon.small.buttonC:before {
+  width: 8px;
+  height: 8px;
+  top: 1px;
+  background: red  0 0 no-repeat;
+}
+
+.buttonB.primary, .primary.buttonC {
+  font-weight: bold;
+}
+
+.buttonB.danger, .danger.buttonC {
+  color: #900;
+}
+
+.buttonB.danger:hover, .danger.buttonC:hover, .buttonB.danger:focus, .danger.buttonC:focus, .buttonB.danger:active, .danger.buttonC:active {
+  border-color: #b53f3a;
+  border-bottom-color: #a0302a;
+  color: #fff;
+  background: #dc5f59 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RjNWY1OSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2IzMzYzMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #dc5f59 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dc5f59), color-stop(100%, #b33630));
+  background: #dc5f59 -webkit-linear-gradient(#dc5f59, #b33630);
+  background: #dc5f59 -moz-linear-gradient(#dc5f59, #b33630);
+  background: #dc5f59 -o-linear-gradient(#dc5f59, #b33630);
+  background: #dc5f59 linear-gradient(#dc5f59, #b33630);
+}
+
+.buttonB.danger.active, .danger.active.buttonC, .buttonB.danger:active, .danger.buttonC:active {
+  border-color: #a0302a;
+  border-bottom-color: #bf4843;
+  background: #b33630 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IzMzYzMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RjNWY1OSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #b33630 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b33630), color-stop(100%, #dc5f59));
+  background: #b33630 -webkit-linear-gradient(#b33630, #dc5f59);
+  background: #b33630 -moz-linear-gradient(#b33630, #dc5f59);
+  background: #b33630 -o-linear-gradient(#b33630, #dc5f59);
+  background: #b33630 linear-gradient(#b33630, #dc5f59);
+}
+
+.buttonB.arrowup:before, .arrowup.buttonC:before {
+  background-position: 0 0;
+}
+
+.buttonB.arrowup:hover:before, .arrowup.buttonC:hover:before, .buttonB.arrowup:focus:before, .arrowup.buttonC:focus:before, .buttonB.arrowup:active:before, .arrowup.buttonC:active:before {
+  background-position: -12px 0;
+}
+
+.buttonB.arrowdown:before, .arrowdown.buttonC:before {
+  background-position: 0 -12px;
+}
+
+.buttonB.arrowdown:hover:before, .arrowdown.buttonC:hover:before, .buttonB.arrowdown:focus:before, .arrowdown.buttonC:focus:before, .buttonB.arrowdown:active:before, .arrowdown.buttonC:active:before {
+  background-position: -12px -12px;
+}
+
+.buttonB.arrowleft:before, .arrowleft.buttonC:before {
+  background-position: 0 -24px;
+}
+
+.buttonB.arrowleft:hover:before, .arrowleft.buttonC:hover:before, .buttonB.arrowleft:focus:before, .arrowleft.buttonC:focus:before, .buttonB.arrowleft:active:before, .arrowleft.buttonC:active:before {
+  background-position: -12px -24px;
+}
+
+.buttonB.arrowright:before, .arrowright.buttonC:before {
+  float: right;
+  margin: 0 -0.25em 0 0.5em;
+  background-position: 0 -36px;
+}
+
+.buttonB.arrowright:hover:before, .arrowright.buttonC:hover:before, .buttonB.arrowright:focus:before, .arrowright.buttonC:focus:before, .buttonB.arrowright:active:before, .arrowright.buttonC:active:before {
+  background-position: -12px -36px;
+}
+
+.buttonB.approve:before, .approve.buttonC:before {
+  background-position: 0 -48px;
+}
+
+.buttonB.approve:hover:before, .approve.buttonC:hover:before, .buttonB.approve:focus:before, .approve.buttonC:focus:before, .buttonB.approve:active:before, .approve.buttonC:active:before {
+  background-position: -12px -48px;
+}
+
+.buttonB.add:before, .add.buttonC:before {
+  background-position: 0 -288px;
+}
+
+.buttonB.add:hover:before, .add.buttonC:hover:before, .buttonB.add:focus:before, .add.buttonC:focus:before, .buttonB.add:active:before, .add.buttonC:active:before {
+  background-position: -12px -288px;
+}
+
+.buttonB.remove:before, .remove.buttonC:before {
+  background-position: 0 -60px;
+}
+
+.buttonB.remove:hover:before, .remove.buttonC:hover:before, .buttonB.remove:focus:before, .remove.buttonC:focus:before, .buttonB.remove:active:before, .remove.buttonC:active:before {
+  background-position: -12px -60px;
+}
+
+.buttonB.log:before, .log.buttonC:before {
+  background-position: 0 -72px;
+}
+
+.buttonB.log:hover:before, .log.buttonC:hover:before, .buttonB.log:focus:before, .log.buttonC:focus:before, .buttonB.log:active:before, .log.buttonC:active:before {
+  background-position: -12px -72px;
+}
+
+.buttonB.calendar:before, .calendar.buttonC:before {
+  background-position: 0 -84px;
+}
+
+.buttonB.calendar:hover:before, .calendar.buttonC:hover:before, .buttonB.calendar:focus:before, .calendar.buttonC:focus:before, .buttonB.calendar:active:before, .calendar.buttonC:active:before {
+  background-position: -12px -84px;
+}
+
+.buttonB.chat:before, .chat.buttonC:before {
+  background-position: 0 -96px;
+}
+
+.buttonB.chat:hover:before, .chat.buttonC:hover:before, .buttonB.chat:focus:before, .chat.buttonC:focus:before, .buttonB.chat:active:before, .chat.buttonC:active:before {
+  background-position: -12px -96px;
+}
+
+.buttonB.clock:before, .clock.buttonC:before {
+  background-position: 0 -108px;
+}
+
+.buttonB.clock:hover:before, .clock.buttonC:hover:before, .buttonB.clock:focus:before, .clock.buttonC:focus:before, .buttonB.clock:active:before, .clock.buttonC:active:before {
+  background-position: -12px -108px;
+}
+
+.buttonB.settings:before, .settings.buttonC:before {
+  background-position: 0 -120px;
+}
+
+.buttonB.settings:hover:before, .settings.buttonC:hover:before, .buttonB.settings:focus:before, .settings.buttonC:focus:before, .buttonB.settings:active:before, .settings.buttonC:active:before {
+  background-position: -12px -120px;
+}
+
+.buttonB.comment:before, .comment.buttonC:before {
+  background-position: 0 -132px;
+}
+
+.buttonB.comment:hover:before, .comment.buttonC:hover:before, .buttonB.comment:focus:before, .comment.buttonC:focus:before, .buttonB.comment:active:before, .comment.buttonC:active:before {
+  background-position: -12px -132px;
+}
+
+.buttonB.fork:before, .fork.buttonC:before {
+  background-position: 0 -144px;
+}
+
+.buttonB.fork:hover:before, .fork.buttonC:hover:before, .buttonB.fork:focus:before, .fork.buttonC:focus:before, .buttonB.fork:active:before, .fork.buttonC:active:before {
+  background-position: -12px -144px;
+}
+
+.buttonB.like:before, .like.buttonC:before {
+  background-position: 0 -156px;
+}
+
+.buttonB.like:hover:before, .like.buttonC:hover:before, .buttonB.like:focus:before, .like.buttonC:focus:before, .buttonB.like:active:before, .like.buttonC:active:before {
+  background-position: -12px -156px;
+}
+
+.buttonB.favorite:before, .favorite.buttonC:before {
+  background-position: 0 -348px;
+}
+
+.buttonB.favorite:hover:before, .favorite.buttonC:hover:before, .buttonB.favorite:focus:before, .favorite.buttonC:focus:before, .buttonB.favorite:active:before, .favorite.buttonC:active:before {
+  background-position: -12px -348px;
+}
+
+.buttonB.home:before, .home.buttonC:before {
+  background-position: 0 -168px;
+}
+
+.buttonB.home:hover:before, .home.buttonC:hover:before, .buttonB.home:focus:before, .home.buttonC:focus:before, .buttonB.home:active:before, .home.buttonC:active:before {
+  background-position: -12px -168px;
+}
+
+.buttonB.key:before, .key.buttonC:before {
+  background-position: 0 -180px;
+}
+
+.buttonB.key:hover:before, .key.buttonC:hover:before, .buttonB.key:focus:before, .key.buttonC:focus:before, .buttonB.key:active:before, .key.buttonC:active:before {
+  background-position: -12px -180px;
+}
+
+.buttonB.lock:before, .lock.buttonC:before {
+  background-position: 0 -192px;
+}
+
+.buttonB.lock:hover:before, .lock.buttonC:hover:before, .buttonB.lock:focus:before, .lock.buttonC:focus:before, .buttonB.lock:active:before, .lock.buttonC:active:before {
+  background-position: -12px -192px;
+}
+
+.buttonB.unlock:before, .unlock.buttonC:before {
+  background-position: 0 -204px;
+}
+
+.buttonB.unlock:hover:before, .unlock.buttonC:hover:before, .buttonB.unlock:focus:before, .unlock.buttonC:focus:before, .buttonB.unlock:active:before, .unlock.buttonC:active:before {
+  background-position: -12px -204px;
+}
+
+.buttonB.loop:before, .loop.buttonC:before {
+  background-position: 0 -216px;
+}
+
+.buttonB.loop:hover:before, .loop.buttonC:hover:before, .buttonB.loop:focus:before, .loop.buttonC:focus:before, .buttonB.loop:active:before, .loop.buttonC:active:before {
+  background-position: -12px -216px;
+}
+
+.buttonB.search:before, .search.buttonC:before {
+  background-position: 0 -228px;
+}
+
+.buttonB.search:hover:before, .search.buttonC:hover:before, .buttonB.search:focus:before, .search.buttonC:focus:before, .buttonB.search:active:before, .search.buttonC:active:before {
+  background-position: -12px -228px;
+}
+
+.buttonB.mail:before, .mail.buttonC:before {
+  background-position: 0 -240px;
+}
+
+.buttonB.mail:hover:before, .mail.buttonC:hover:before, .buttonB.mail:focus:before, .mail.buttonC:focus:before, .buttonB.mail:active:before, .mail.buttonC:active:before {
+  background-position: -12px -240px;
+}
+
+.buttonB.move:before, .move.buttonC:before {
+  background-position: 0 -252px;
+}
+
+.buttonB.move:hover:before, .move.buttonC:hover:before, .buttonB.move:focus:before, .move.buttonC:focus:before, .buttonB.move:active:before, .move.buttonC:active:before {
+  background-position: -12px -252px;
+}
+
+.buttonB.edit:before, .edit.buttonC:before {
+  background-position: 0 -264px;
+}
+
+.buttonB.edit:hover:before, .edit.buttonC:hover:before, .buttonB.edit:focus:before, .edit.buttonC:focus:before, .buttonB.edit:active:before, .edit.buttonC:active:before {
+  background-position: -12px -264px;
+}
+
+.buttonB.pin:before, .pin.buttonC:before {
+  background-position: 0 -276px;
+}
+
+.buttonB.pin:hover:before, .pin.buttonC:hover:before, .buttonB.pin:focus:before, .pin.buttonC:focus:before, .buttonB.pin:active:before, .pin.buttonC:active:before {
+  background-position: -12px -276px;
+}
+
+.buttonB.reload:before, .reload.buttonC:before {
+  background-position: 0 -300px;
+}
+
+.buttonB.reload:hover:before, .reload.buttonC:hover:before, .buttonB.reload:focus:before, .reload.buttonC:focus:before, .buttonB.reload:active:before, .reload.buttonC:active:before {
+  background-position: -12px -300px;
+}
+
+.buttonB.rss:before, .rss.buttonC:before {
+  background-position: 0 -312px;
+}
+
+.buttonB.rss:hover:before, .rss.buttonC:hover:before, .buttonB.rss:focus:before, .rss.buttonC:focus:before, .buttonB.rss:active:before, .rss.buttonC:active:before {
+  background-position: -12px -312px;
+}
+
+.buttonB.tag:before, .tag.buttonC:before {
+  background-position: 0 -324px;
+}
+
+.buttonB.tag:hover:before, .tag.buttonC:hover:before, .buttonB.tag:focus:before, .tag.buttonC:focus:before, .buttonB.tag:active:before, .tag.buttonC:active:before {
+  background-position: -12px -324px;
+}
+
+.buttonB.trash:before, .trash.buttonC:before {
+  background-position: 0 -336px;
+}
+
+.buttonB.trash:hover:before, .trash.buttonC:hover:before, .buttonB.trash:focus:before, .trash.buttonC:focus:before, .buttonB.trash:active:before, .trash.buttonC:active:before {
+  background-position: -12px -336px;
+}
+
+.buttonB.user:before, .user.buttonC:before {
+  background-position: 0 -360px;
+}
+
+.buttonB.user:hover:before, .user.buttonC:hover:before, .buttonB.user:focus:before, .user.buttonC:focus:before, .buttonB.user:active:before, .user.buttonC:active:before {
+  background-position: -12px -360px;
+}
+
+.buttonB.grid.small:before, .grid.small.buttonC:before {
+  background: transparent url(images/icon_grid.png) 0 0 no-repeat;
+}
+
+.buttonB.list.small:before, .list.small.buttonC:before {
+  background: transparent url(images/icon_list.png) 0 0 no-repeat;
+}
+
+
+.buttonC {
+  font-size: 14px;
+  padding: 0.5em 1em;
+}
+
+
+.buttonD {
+  padding: 6px 11px;
+  min-height: 11px;
+  position: relative;
+  overflow: visible;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0;
+  border: 1px solid #777777;
+  text-decoration: none;
+  text-shadown: 0 0 0;
+  font: 11px sans-serif;
+  line-height: 1;
+  color: #333333;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  background: #dadada url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIvPjxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjZGFkYWRhIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: #dadada -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6f6f6), color-stop(70%, #dadada), color-stop(100%, #cccccc));
+  background: #dadada -webkit-linear-gradient(#f6f6f6, #dadada 70%, #cccccc);
+  background: #dadada -moz-linear-gradient(#f6f6f6, #dadada 70%, #cccccc);
+  background: #dadada -o-linear-gradient(#f6f6f6, #dadada 70%, #cccccc);
+  background: #dadada linear-gradient(#f6f6f6, #dadada 70%, #cccccc);
+  
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
+  border-radius: 0.2em;
+  text-align: center;
+}
+
+.buttonD:visited {
+  color: #333333;
+}
+
+.buttonD:focus {
+  color: #333333;
+}
+
+.buttonD:hover {
+  color: #333333;
+}
+
+.buttonD:active {
+  color: #333333;
+}
+
+.buttonD:hover, .buttonD:focus, .buttonD:active, .buttonD.selected {
+  text-decoration: none;
+  text-shadow: 0 0 0;
+  color: #111111;
+}
+
+.buttonD:hover, .buttonD:focus {
+  border-color: #555555;
+  border-bottom-color: #222222;
+  background: #dadada url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIvPjxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjZTFlMWUxIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDFkMWQxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: #dadada -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6f6f6), color-stop(70%, #e1e1e1), color-stop(100%, #d1d1d1));
+  background: #dadada -webkit-linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1);
+  background: #dadada -moz-linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1);
+  background: #dadada -o-linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1);
+  background: #dadada linear-gradient(#f6f6f6, #e1e1e1 70%, #d1d1d1);
+}
+
+.buttonD:active, .buttonD.selected {
+  border-color: #555555;
+  border-bottom-color: #222222;
+  background: #dadada url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjYzNjM2MzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYmJiYmJiIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: #dadada -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(70%, #c3c3c3), color-stop(100%, #bbbbbb));
+  background: #dadada -webkit-linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb);
+  background: #dadada -moz-linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb);
+  background: #dadada -o-linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb);
+  background: #dadada linear-gradient(#cccccc, #c3c3c3 70%, #bbbbbb);
+}
+
+.buttonD:active {
+  -webkit-box-shadow: inset 0px 1px 5px #777777;
+  -moz-box-shadow: inset 0px 1px 5px #777777;
+  box-shadow: inset 0px 1px 5px #777777;
+}
+
+.buttonD.selected {
+  -webkit-box-shadow: inset 0px 1px 5px #222222;
+  -moz-box-shadow: inset 0px 1px 5px #222222;
+  box-shadow: inset 0px 1px 5px #222222;
+}
+
+.buttonD::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.buttonD.only_icon {
+  min-height: 26px;
+}
+
+.buttonD.only_icon:before {
+  margin: 0px 0 0px 0;
+}
+
+.buttonD.icon:before, .buttonD.only_icon:before {
+  content: "";
+  height: 26px;
+  min-width: 26px;
+  float: none;
+  display: block;
+  background: transparent none  50% 0 no-repeat;
+}
+
+.buttonD.icon:before {
+  margin: 0 0 8px 0;
+}
+
+.buttonD.eye:before {
+  background-position: 50% 5px;
+  background-image: url(images/12-eye.png);
+}
+
+.buttonD.flag:before {
+  background-position: 50% 0;
+  background-image: url(images/59-flag.png);
+}
+
+.buttonD.group:before {
+  background-position: 50% 2px;
+  background-image: url(images/112-group.png);
+}
+
+.buttonD.palette:before {
+  background-position: 50% 3px;
+  background-image: url(images/98-palette.png);
+}
+
+.buttonD.shuffle:before {
+  background-position: 50% 2px;
+  background-image: url(images/05-shuffle.png);
+}
+
+
+.button-group {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.button-group > li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  margin-left: 0;
+}
+
+.button-group > li:first-child, .button-group > li.first {
+  margin-left: 0;
+}
+
+.button-group > .buttonA, #frontpage #login .button-group > input[type='submit'], .button-group li {
+  margin-left: -1px;
+}
+
+.button-group > .buttonA:not(:first-child):not(:last-child), #frontpage #login .button-group > input[type='submit']:not(:first-child):not(:last-child),
+.button-group li:not(:first-child):not(:last-child) .buttonA,
+.button-group li:not(:first-child):not(:last-child) #frontpage #login input[type='submit'],
+#frontpage #login .button-group li:not(:first-child):not(:last-child) input[type='submit'] {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+.button-group > .buttonA:first-child, #frontpage #login .button-group > input[type='submit']:first-child,
+.button-group li:first-child .buttonA,
+.button-group li:first-child #frontpage #login input[type='submit'],
+#frontpage #login .button-group li:first-child input[type='submit'] {
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-left: 0;
+}
+
+.button-group > .buttonA:last-child, #frontpage #login .button-group > input[type='submit']:last-child,
+.button-group li:last-child .buttonA,
+.button-group li:last-child #frontpage #login input[type='submit'],
+#frontpage #login .button-group li:last-child input[type='submit'] {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.button-group > .buttonB, .button-group > .buttonC, .button-group li {
+  margin-left: -1px;
+}
+
+.button-group > .buttonB:not(:first-child):not(:last-child), .button-group > .buttonC:not(:first-child):not(:last-child),
+.button-group li:not(:first-child):not(:last-child) .buttonB,
+.button-group li:not(:first-child):not(:last-child) .buttonC {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+.button-group > .buttonB:first-child, .button-group > .buttonC:first-child,
+.button-group li:first-child .buttonB,
+.button-group li:first-child .buttonC {
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-left: 0;
+}
+
+.button-group > .buttonB:last-child, .button-group > .buttonC:last-child,
+.button-group li:last-child .buttonB,
+.button-group li:last-child .buttonC {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.button-group > .buttonD, .button-group li {
+  margin-left: -1px;
+}
+
+.button-group > .buttonD:not(:first-child):not(:last-child),
+.button-group li:not(:first-child):not(:last-child) .buttonD {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+.button-group > .buttonD:first-child,
+.button-group li:first-child .buttonD {
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-left: 0;
+}
+
+.button-group > .buttonD:last-child,
+.button-group li:last-child .buttonD {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.button-group > .buttonA, #frontpage #login .button-group > input[type='submit'], .button-group > .buttonB, .button-group > .buttonC, .button-group > .buttonD {
+  float: left;
+}
+
+
+.vertical-button-group {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+.vertical-button-group > .buttonA, #frontpage #login .vertical-button-group > input[type='submit'], .vertical-button-group li {
+  margin-top: -1px;
+}
+
+.vertical-button-group > .buttonA:not(:first-child):not(:last-child), #frontpage #login .vertical-button-group > input[type='submit']:not(:first-child):not(:last-child),
+.vertical-button-group li:not(:first-child):not(:last-child) .buttonA,
+.vertical-button-group li:not(:first-child):not(:last-child) #frontpage #login input[type='submit'],
+#frontpage #login .vertical-button-group li:not(:first-child):not(:last-child) input[type='submit'] {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+.vertical-button-group > .buttonA:first-child, #frontpage #login .vertical-button-group > input[type='submit']:first-child,
+.vertical-button-group li:first-child .buttonA,
+.vertical-button-group li:first-child #frontpage #login input[type='submit'],
+#frontpage #login .vertical-button-group li:first-child input[type='submit'] {
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: 0;
+}
+
+.vertical-button-group > .buttonA:last-child, #frontpage #login .vertical-button-group > input[type='submit']:last-child,
+.vertical-button-group li:last-child .buttonA,
+.vertical-button-group li:last-child #frontpage #login input[type='submit'],
+#frontpage #login .vertical-button-group li:last-child input[type='submit'] {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.vertical-button-group > .buttonB, .vertical-button-group > .buttonC, .vertical-button-group li {
+  margin-top: -1px;
+}
+
+.vertical-button-group > .buttonB:not(:first-child):not(:last-child), .vertical-button-group > .buttonC:not(:first-child):not(:last-child),
+.vertical-button-group li:not(:first-child):not(:last-child) .buttonB,
+.vertical-button-group li:not(:first-child):not(:last-child) .buttonC {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+.vertical-button-group > .buttonB:first-child, .vertical-button-group > .buttonC:first-child,
+.vertical-button-group li:first-child .buttonB,
+.vertical-button-group li:first-child .buttonC {
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: 0;
+}
+
+.vertical-button-group > .buttonB:last-child, .vertical-button-group > .buttonC:last-child,
+.vertical-button-group li:last-child .buttonB,
+.vertical-button-group li:last-child .buttonC {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.vertical-button-group > .buttonD, .vertical-button-group li {
+  margin-top: -1px;
+}
+
+.vertical-button-group > .buttonD:not(:first-child):not(:last-child),
+.vertical-button-group li:not(:first-child):not(:last-child) .buttonD {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+.vertical-button-group > .buttonD:first-child,
+.vertical-button-group li:first-child .buttonD {
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: 0;
+}
+
+.vertical-button-group > .buttonD:last-child,
+.vertical-button-group li:last-child .buttonD {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.vertical-button-group .buttonA, .vertical-button-group #frontpage #login input[type='submit'], #frontpage #login .vertical-button-group input[type='submit'], .vertical-button-group .buttonB, .vertical-button-group .buttonC, .vertical-button-group .buttonD {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.button-container {
+  
+}
+
+.button-container .button-group, .button-container .buttonA, .button-container #frontpage #login input[type='submit'], #frontpage #login .button-container input[type='submit'], .button-container .buttonB, .button-container .buttonC, .button-container .buttonD {
+  vertical-align: top;
+}
+
+/* We are adding styles on top of formalize and formtastic, eventually we should
+** derive our own mix. There are a bunch of problems:
+** 1) We  are not using Formtastic for every single form
+** 2) Both Formtastic and Formalize are linked to their gem, they 'evolve'.
+** 3) Overriding them is kind of tricky (specifity wars)
+**
+** Our current approach: style button like inputs in a similar way to Formalize
+*/
+
+input.style.iA {
+  color: #e7e7e7;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 0px 1px 1px #2b2b2b, 0px 1px 1px #5e5e5e;
+  -moz-box-shadow: inset 0px 1px 1px #2b2b2b, 0px 1px 1px #5e5e5e;
+  box-shadow: inset 0px 1px 1px #2b2b2b, 0px 1px 1px #5e5e5e;
+  border: 1px solid #1e1e1e;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 1.4em 0.6em;
+}
+
+input.style.iA::-webkit-input-placeholder {
+  color: rgba(231, 231, 231, 0.3);
+}
+
+input.style.iA:-moz-placeholder {
+  color: rgba(231, 231, 231, 0.3);
+}
+
+input.style.iA:focus {
+  border: 1px solid #040404;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+input.style.iB {
+  color: #333333;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: inset 0px 1px 1px #d4d4d4, 0px 1px 1px white;
+  -moz-box-shadow: inset 0px 1px 1px #d4d4d4, 0px 1px 1px white;
+  box-shadow: inset 0px 1px 1px #d4d4d4, 0px 1px 1px white;
+  border: 1px solid #c8c8c8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 1.4em 0.6em;
+}
+
+input.style.iB::-webkit-input-placeholder {
+  color: rgba(51, 51, 51, 0.3);
+}
+
+input.style.iB:-moz-placeholder {
+  color: rgba(51, 51, 51, 0.3);
+}
+
+input.style.iB:focus {
+  border: 1px solid #aeaeae;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  height: inherit;
+}
